@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+       <title>Monoid</title>
+         <link rel="stylesheet" href="style.css">
+
+    <!--плавное листание-->
+    <script src="javascripts/jquery-3.6.0.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    $(function() {
+    	$('.sidebar a').each(function() {
+    		$(this).on('click', function(e) {
+    			e.preventDefault();
+    			var scrollTo = $(this).attr('href');
+    			var whitespace = scrollTo == '#s1' ? 70 : 30;
+    			$('html,body').animate({
+    				scrollTop: $(scrollTo).offset().top - whitespace
+    			}, 1000);
+    		});
+    	});
+    });
+    </script>
+  </head>
+
+<body>
+ <!-- меню -->
+    <div class="menubar">
+      <a class="active" href="#характеристика"> Характеристика</a>
+      <a class="active" href="#история"> История</a>
+      <a class="active" href="#архитектура"> Архитектура</a>
+      <a class="active" href="#начертание"> Начертание</a>
+          </div>
+
+<!--1 окошко-->
+    <div class="img1">
+      <img src="C:\Users\Соня\Desktop\lending\img\Group 9.png">
+        <div class="text1">
+          <p><strong>Monoid</strong></p>
+              </div>
+            <div class="text2">
+               <p> шрифт компьютерного кода </p>
+                </div>
+          </div>
+
+
+<!--папки справа-->
+    <div class="container">
+      <div class="column1">
+        <div class="1">
+          <img src="C:\Users\Соня\Desktop\lending\img\Group 2.png">
+            <p><strong>password <br> cracker </strong></p>
+              </div>
+        <div class="2">
+          <img src="C:\Users\Соня\Desktop\lending\img\Group 5.png">
+            <p><strong>advertis-<br>ements</strong></p>
+              </div>
+        <div class="3">
+          <img src="C:\Users\Соня\Desktop\lending\img\Group 1.png">
+            <p><strong>programm<br>console</strong></p>
+              </div>
+        <div class="4">
+          <img src="C:\Users\Соня\Desktop\lending\img\Group 3.png">
+            <p><strong>nuclear<br>plant</strong></p>
+              </div>
+           </div>
+
+      <div class="column2">
+        <div class="5">
+          <img src="C:\Users\Соня\Desktop\lending\img\Group 4.png">
+            <p><strong>self<br>destruct</strong></p>
+              </div>
+        <div class="6">
+          <img src="C:\Users\Соня\Desktop\lending\img\Group 6.png">
+             <p><strong>bitcoin<br>mainer</strong></p>
+              </div>
+        <div class="7">
+          <img src="C:\Users\Соня\Desktop\lending\img\Group 7.png">
+             <p><strong>remote<br>connection</strong></p>
+              </div>
+        <div class="8">
+          <img src="C:\Users\Соня\Desktop\lending\img\Group 8.png">
+             <p><strong>top<br>secret</strong></p>
+              </div>
+           </div>
+        </div>
+      </div>
+
+
+
+
+</body>
+</html>

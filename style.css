@@ -1,0 +1,76 @@
+body{
+  background-color: #000000;
+  font-family: Monoid;
+}
+/*ссылки*/
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+   }
+/*меню*/
+.menubar{
+   padding-left: 40px;
+   margin-top: 38px;
+   word-spacing: 40px;
+}
+/*колонки папок справа*/
+.container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 1000px; /*отступ справа*/
+  align-items:flex-end;
+  margin-top: -400px;
+}
+/*размер папок справа*/
+.container img{
+  width:70px;
+  height:52px;
+  margin-bottom: -10px;
+}
+/*отступ от левой колонки*/
+.column1 {
+  margin-right: 60px;
+}
+/*цвет текст папок справа*/
+.container p{
+  color: #800909;
+  font-size: 12px;
+}
+/*размер и положение 1 окошка*/
+.img1 img{
+  position: relative;
+  width: 700px;
+  border: none;
+  margin-top: 70px;
+  padding-left: 200px;
+  position: static;
+}
+/*размер и положение текста на 1 окошке*/
+.text1 p{
+  color: #ffffff;
+  font-size: 100px;
+  padding-left: 235px;
+  margin-top: -275px;
+}
+div#text1{
+position: relative;
+}
+.text1 {
+position: absolute;
+}
+/**/
+/*размер и положение текста 2 на 1 окошке*/
+.text2 p{
+  color: #ffffff;
+  font-size: 25px;
+  padding-left: 241px;
+  margin-top: -140px;
+}
+div#text2{
+position: relative;
+}
+.text2 {
+position: absolute;
+}
+/**/
